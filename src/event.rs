@@ -5,4 +5,6 @@
 #[derive(PartialEq, Eq, Debug, Clone, Hash)]
 pub enum Event {
     ManualStart,
+    // 正常系歯科実装しない本実装では別のEventとして扱う意味がないため
+    TcpConnectionConfirmed,
 }
